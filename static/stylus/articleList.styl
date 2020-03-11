@@ -1,0 +1,100 @@
+.articleMain
+  width 100%
+  height auto
+  overflow hidden
+  .content
+    width 1200px
+    height 300px
+    margin 85px auto 0 auto
+    .articleList li
+      overflow hidden
+      width 100%
+      padding 15px 0
+      border-bottom 1px solid #f0f0f0
+      list-style none
+    .articleList li a
+     color #000
+    .listContent
+      width 80%
+      float left
+    .articleList li h2
+      font-size 16px
+      padding 10px 0
+      text-align left
+    .articleList li div
+      line-height 25px;
+      text-align left
+    .listPic
+      width 15%
+      height 100px
+      float right
+    .listTip
+      width 100%
+    .listTip span
+      padding 10px
+      font-size 12px
+    .listLogo
+      width 130px
+      border-radius 50%
+      animation animationPic 3s
+      -moz-animation animationPic 3s
+      -webkit-animation animationPic 3s
+      -o-animation animationPic 3s
+      -webkit-animation-iteration-count infinite
+      animation-iteration-count infinite
+
+    /*动画*/
+    @keyframes animationPic
+      0%
+        -webkit-transform rotate(0deg) scale(.8)
+        transform rotate(0deg) scale(.8)
+        opacity 1
+
+      25%
+        -webkit-transform rotate(0deg) scale(1)
+        transform rotate(0deg) scale(1)
+        opacity .8
+      to
+        -webkit-transform rotate(0deg) scale(.8)
+        transform rotate(0deg) scale(.8)
+        opacity 1
+
+    @-webkit-keyframes animationPic
+      0%
+        -webkit-transform rotate(0deg) scale(.8)
+        transform rotate(0deg) scale(.8)
+        opacity 1
+
+      25%
+        -webkit-transform rotate(0deg) scale(1)
+        transform rotate(0deg) scale(1)
+        opacity .8
+      to
+        -webkit-transform rotate(0deg) scale(.8)
+        transform rotate(0deg) scale(.8)
+        opacity 1
+
+//详细页面
+.detailH2
+  line-height 35px
+  padding 10px 0
+  text-align left
+.detailTip
+  text-align left
+.detailTip span
+  font-size 12px
+  padding 5px
+.detailMain
+  overflow hidden
+  height auto
+  padding 20px
+  line-height 35px
+  text-align left
+
+//留言页面
+.demo-ruleForm
+  margin-top 50px
+  height 565px
+
+
+

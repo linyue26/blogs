@@ -1,0 +1,164 @@
+.articleMain {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.articleMain .content {
+  width: 1200px;
+  height: 300px;
+  margin: 85px auto 0 auto;
+/*动画*/
+}
+.articleMain .content .articleList li {
+  overflow: hidden;
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+  list-style: none;
+}
+.articleMain .content .articleList li a {
+  color: #000;
+}
+.articleMain .content .listContent {
+  width: 80%;
+  float: left;
+}
+.articleMain .content .articleList li h2 {
+  font-size: 16px;
+  padding: 10px 0;
+  text-align: left;
+}
+.articleMain .content .articleList li div {
+  line-height: 25px;
+  text-align: left;
+}
+.articleMain .content .listPic {
+  width: 15%;
+  height: 100px;
+  float: right;
+}
+.articleMain .content .listTip {
+  width: 100%;
+}
+.articleMain .content .listTip span {
+  padding: 10px;
+  font-size: 12px;
+}
+.articleMain .content .listLogo {
+  width: 130px;
+  border-radius: 50%;
+  animation: animationPic 3s;
+  -moz-animation: animationPic 3s;
+  -webkit-animation: animationPic 3s;
+  -o-animation: animationPic 3s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes animationPic {
+  0% {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.8);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity: 0.8;
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.8);
+    opacity: 1;
+  }
+}
+@-moz-keyframes animationPic {
+  0% {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.8);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity: 0.8;
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.8);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes animationPic {
+  0% {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.8);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity: 0.8;
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.8);
+    opacity: 1;
+  }
+}
+@-o-keyframes animationPic {
+  0% {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.8);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity: 0.8;
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.8);
+    opacity: 1;
+  }
+}
+@keyframes animationPic {
+  0% {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.8);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity: 0.8;
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.8);
+    opacity: 1;
+  }
+}
+.detailH2 {
+  line-height: 35px;
+  padding: 10px 0;
+  text-align: left;
+}
+.detailTip {
+  text-align: left;
+}
+.detailTip span {
+  font-size: 12px;
+  padding: 5px;
+}
+.detailMain {
+  overflow: hidden;
+  height: auto;
+  padding: 20px;
+  line-height: 35px;
+  text-align: left;
+}
+.demo-ruleForm {
+  margin-top: 50px;
+  height: 565px;
+}
